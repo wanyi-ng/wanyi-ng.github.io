@@ -1,0 +1,79 @@
+@font-face {
+	font-family: 'Ogg';
+	src: url(../../assets/fonts/Ogg-MediumItalic.woff2) format('woff2'),
+	url(../../assets/fonts/Ogg-MediumItalic.woff) format('woff');
+	font-weight: 500;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Ogg';
+	src: url(../../assets/fonts/Ogg-Thin.woff2) format('woff2'),
+	url(../../assets/fonts/Ogg-Thin.woff) format('woff');
+	font-weight: 100;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Ogg';
+	src: url(../../assets/fonts/Ogg-BoldItalic.woff2) format('woff2'),
+	url(../../assets/fonts/Ogg-BoldItalic.woff) format('woff');
+	font-weight: bold;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Ogg';
+	src: url(../../assets/fonts/Ogg-Light.woff2) format('woff2'),
+	url(../../assets/fonts/Ogg-Light.woff) format('woff');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Ogg';
+	src: url(../../assets/fonts/Ogg-Regular.woff2) format('woff2'),
+	url(../../assets/fonts/Ogg-Regular.woff) format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Ogg';
+	src: url(../../assets/fonts/Ogg-ThinItalic.woff2) format('woff2'),
+	url(../../assets/fonts/Ogg-ThinItalic.woff) format('woff');
+	font-weight: 100;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Ogg';
+	src: url(../../assets/fonts/Ogg-RegularItalic.woff2) format('woff2'),
+	url(../../assets/fonts/Ogg-RegularItalic.woff) format('woff');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Ogg';
+	src: url(../../assets/fonts/Ogg-Bold.woff2) format('woff2'),
+	url(../../assets/fonts/Ogg-Bold.woff) format('woff');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Ogg';
+	src: url(../../assets/fonts/Ogg-Medium.woff2) format('woff2'),
+	url(../../assets/fonts/Ogg-Medium.woff) format('woff');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Ogg';
+	src: url(../../assets/fonts/Ogg-LightItalic.woff2) format('woff2'),
+	url(../../assets/fonts/Ogg-LightItalic.woff) format('woff');
+	font-weight: 300;
+	font-style: italic;
+}

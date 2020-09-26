@@ -1,0 +1,103 @@
+.avatar {
+  width: 150px;
+  height: 150px;
+}
+
+.avatar-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2em;
+}
+
+.personal {
+  letter-spacing: 1.25px;
+}
+
+span > i {
+  padding: 15px;
+}
+
+.experience > li {
+  list-style-type: circle;
+}
+
+.skills {
+  margin-left: 0;
+}
+
+.social > a {
+  font-size: 20px;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 60%;
+  box-shadow: 0 0 0 1px rgba(255,255,255,0.4);
+  margin: 0 8px;
+  color: #fff;
+  opacity: 0.5;
+}
+
+.right-1 {
+  font-size: 20px;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  box-shadow: 0 0 0 1px rgba(255,255,255,0.4);
+  margin: 10px;
+  color: #fff;
+  opacity: 0.5;
+}
+
+.right-1:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+@media (max-width: 576px) {
+  .spei {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2em;
+  }
+}
+
+.right {
+  font-size: 20px;
+  width: 36px;
+  height: 36px;
+  line-height: 40px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  box-shadow: 0 0 0 1px rgba(255,255,255,0.4);
+  margin: 10px;
+  color: #fff;
+  opacity: 0.5;
+}
+
+.right:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.photo-gallery {
+  color: #fff;
+  background-color: transparent;
+  margin-bottom: 3em;
+}
+
+.omit {
+  display: none;
+}
+
+.return {
+  margin-bottom: 2em;
+}
+

@@ -1,0 +1,156 @@
+.nav-tabs {
+  border-bottom: 0px solid #dee2e6;
+}
+
+.nav {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.fa-2x {
+    font-size: 2rem;
+}
+
+.fa {
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 1.5rem;
+}
+
+.main-nav {
+    background: transparent;
+    border-right: 1px solid none;
+    position: fixed;
+    z-index: 1000;
+}
+
+.main-nav>ul {
+    margin: 0rem 0rem;
+}
+
+nav ul,
+nav li {
+    outline: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav li:hover>a,
+    nav.main-nav li.active>a{
+      color: #fff;
+      background-color: #919191;
+}
+
+.main-nav .nav-text, .main-nav li>a{
+  font-family: 'Ogg';
+}
+
+.main-nav li>a {
+      border-collapse: collapse;
+      border-spacing: 0;
+      color: white;
+      font-size: 1.03rem;
+      text-decoration: none;
+      max-width: 100%;
+}
+
+@media (min-width:35.1em) {
+  .fa{
+    display: table-cell;
+    width: 5rem;
+    height: 5rem;
+  }
+  
+  .main-nav:hover,
+    nav.main-nav.expanded {
+      width: 15em;
+      overflow: visible;
+  }
+  
+  .main-nav{
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    width: 5rem;
+    overflow: hidden;
+    -webkit-transition: width .05s linear;
+    transition: width .05s linear;
+    -webkit-transform: translateZ(0) scale(1, 1);
+  }
+  
+  .main-nav li {
+    position: relative;
+    display: block;
+    width: 18rem;
+  }
+    
+  .main-nav li>a {
+      position: relative;
+      display: table;
+      -webkit-transform: translateZ(0) scale(1, 1);
+      -webkit-transition: all .1s linear;
+      transition: all .1s linear;
+  }
+
+  .main-nav .nav-text {
+      position: relative;
+      display: table-cell;
+      vertical-align: middle;
+      width: 10rem;
+  }
+}
+
+
+
+/*MOBILE NAV WIDTH*/
+@media (max-width:35em) {
+    .main-nav {
+        background: black;
+        border-right: 0px solid #e5e5e5;
+        position: fixed;
+        margin: 0;
+        left: 0;
+        bottom: 0;
+        height: 4em;
+        width: 100%;
+    }
+    
+    .main-nav ul{
+      display: table;
+      width: 100%; 
+      margin: 0 4px;
+    }
+    
+    .main-nav li{
+      float: left;
+      width: 14%;
+      list-style-type: none;
+      text-align: center;
+    }
+    
+    .main-nav a{
+      display: block;
+      padding: 5px;
+      height: 74px;
+    }
+    
+    .main-nav li>a {
+      color: #f3fafd;
+    }
+    
+    .main-nav i, .main-nav span {
+      display: block;
+      margin: 0 auto;
+    }
+  
+    .main-nav span {
+      font-size: 12px;
+    }
+}

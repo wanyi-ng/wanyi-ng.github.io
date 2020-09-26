@@ -1,0 +1,10 @@
+@font-face {
+	font-family: 'Williwaw';
+	src: url(../../assets/fonts/WilliwawBook.eot) format('embedded-opentype'),
+	url(../../assets/fonts/WilliwawBook.eot) format('embedded-opentype'),
+	url(../../assets/fonts/WilliwawBook.woff2) format('woff2'),
+	url(../../assets/fonts/WilliwawBook.woff) format('woff'),
+	url(../../assets/fonts/WilliwawBook.ttf) format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
