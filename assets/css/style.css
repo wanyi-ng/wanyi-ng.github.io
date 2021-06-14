@@ -1,0 +1,139 @@
+*{
+  box-sizing: border-box;
+}
+
+html{
+  scroll-snap-type: mandatory;
+	/*scroll-snap-points-y: repeat(100vh);*/
+	scroll-snap-type: y mandatory;
+  /*background-color: black;*/
+}
+
+body {
+  font-family: 'apocrevelations';
+  overflow-x: hidden;
+  background: url('../../assets/img/desktop-bg.png') repeat;
+}
+
+section {
+  width: 100%;
+  height: 100vh;
+  scroll-snap-align: start;
+}
+
+/*------NAVBAR------NAVBAR------NAVBAR------NAVBAR------NAVBAR------*/
+.sidebar {
+  width: 200px;
+  height: 100vh;
+  font-family: 'made_bon_voyage';
+  letter-spacing: .025rem;
+  background-color: transparent !important;
+}
+.sidebar li{
+  height: 8vh;
+}
+
+.mobile-nav {
+  width: 100%;
+  height: 10vh;
+  background-color: #555;
+  overflow: auto;
+  /*max-width: 100vw;
+  background-color: rosybrown;
+  */
+}
+.mobile-nav a{
+  float: left;
+  padding: 1rem;
+  color: white;
+  text-decoration: none;
+  font-family: 'apocrevelations';
+  font-size: 0.75rem;  
+  width: 25%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+  text-align: center; /* If you want the text to be centered */
+}
+.mobile-nav a:hover{
+  background-color: #000;
+}
+.mobile-nav a.active {
+  background-color: #202020;
+}
+/*---------------------------------------------------------------------*/
+
+
+/*------MEDIA QUERIES------MEDIA QUERIES------MEDIA QUERIES------------*/
+/*// Small devices (landscape phones, less than 768px)*/
+@media screen and (max-width: 768px) {
+  .invisible-mobile {
+    display: none;
+  }
+}
+
+/*//Medium devices (tablets, 768px and up)// invisible on tablet and desktop*/
+@media screen and (min-width: 769px) { 
+  .invisible-desktop {
+    display: none;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .project{
+    max-width: 90%;
+    height: auto;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .project{
+    max-width: 70%;
+    height: auto;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1400px) {
+  .project{
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+.about-text h1 {
+  line-height: 4rem; 
+  font-family: 'apocrevelations';
+}
+@media (max-width: 575.98px){
+  .about-text h1{
+    line-height: 3rem;
+  }
+}
+/*---------------------------------------------------------------------*/
+
+
+/*------CONTACT------CONTACT------CONTACT------CONTACT------CONTACT----*/
+.rectangle{
+  background-color: rgb(200, 200, 200);
+  width: 600px;
+  height: 300px;
+}
+
+/*------FOOTER------FOOTER------FOOTER------FOOTER------FOOTER---------*/
+footer{
+  padding: 3rem;
+}
+footer h4{
+  color: rgb(200, 200, 200);
+}
+/*//Medium devices (tablets, 768px and up)*/
+@media (min-width: 992px) {
+  footer{
+    position: relative;
+    top: 25vh;
+  }
+}
+
+.list-group-item{
+  background-color: transparent !important;
+}
+/*---------------------------------------------------------------------*/
+
+

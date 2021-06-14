@@ -1,148 +1,351 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Wanyi Ng - Project 1</title>
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/Ogg.css">
-    <link rel="stylesheet" href="assets/css/osgard_proregular.css">
-    <link rel="stylesheet" href="assets/css/Williwaw.css">
-    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
-    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
-    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
-    <link rel="stylesheet" href="assets/css/about.css">
-    <link rel="stylesheet" href="assets/css/contact.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
-    <link rel="stylesheet" href="assets/css/Lightbox-Gallery.css">
-    <link rel="stylesheet" href="assets/css/nav.compiled.css">
-    <link rel="stylesheet" href="assets/css/projects.css">
-    <link rel="stylesheet" href="assets/css/resume.css">
-    <link rel="stylesheet" href="assets/css/styles.css">
-<link href = "favicon.png" rel = "icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+    <title>Wanyi Ng | Design Portfolio</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/projects.css" rel="stylesheet">
+    <link href="assets/fonts/fonts.css" rel="stylesheet">
+    <link href="assets/img/icons/favicon_32x32_square_1.png" rel="icon">
 </head>
 
 <body>
-    <header>
-        <!-- Start: nav --><nav class="main-nav">
-  <ul>
-    <li class="logo">
-        <a href="">
-           <i class="fa fa-2x"><img style="width:50%; height:50%" src="assets/img/logo-2.png" class="end"></i>
-          <span class="nav-text">Wany<em>i</em> Ng</span>
-        </a>
-     </li>
-     <li class="has-subnav">
-         <a href="index.html">
-           <i class="fa fa-2x"><img style="width:50%; height:50%" src="assets/img/droplet-transparent.png" class="end"></i>
-             <span class="nav-text">Home</span>
-         </a>
-      </li>
-      <li class="has-subnav">
-         <a href="project1.html">
-           <i class="fa fa-2x"><img style="width:50%; height:50%" src="assets/img/droplet-transparent.png" class="end"></i>
-             <span class="nav-text">Project 1</span>
-         </a>
-      </li>
-      <li class="has-subnav">
-        <a href="project2.html">
-          <i class="fa fa-2x"><img style="width:50%; height:50%" src="assets/img/droplet-transparent.png" class="end"></i>
-            <span class="nav-text">Project 2</span>
-        </a>
-       </li>
-       <li class="has-subnav">
-         <a href="project3.html">
-           <i class="fa fa-2x"><img style="width:50%; height:50%" src="assets/img/droplet-transparent.png" class="end"></i>
-            <span class="nav-text">Project 3</span>
-         </a>
-       </li>
-      <li class="has-subnav">
-         <a href="project4.html">
-           <i class="fa fa-2x"><img style="width:50%; height:50%" src="assets/img/droplet-transparent.png" class="end"></i>
-            <span class="nav-text">Project 4</span>
-         </a>
-       </li>
-      <li class="has-subnav">
-        <a href="contact.html">
-          <i class="fa fa-envelope fa-2x" style="width=50%;height=50%;"></i>
-            <span class="nav-text"> Contact</span>
-        </a>
-      </li>
-  </ul>
-</nav>
-        <!-- End: nav -->
-    </header>
-    <!-- Start: line -->
-    <div class="header">
-        <h1 class="display-1">"Fuck It, Fuck You. This Is Me."<br></h1>
-        <p class="subtitle fancy"><span>2019</span></p>
+  <!----------------DESKTOP & TABLET NAVBAR---------------->
+  <nav class="invisible-mobile" style="position: relative; top: 15vh;">
+    <div class="sidebar d-flex flex-column p-3 text-white bg-dark position-fixed">
+      <a href="index.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+        <span class="fs-4"><img src="assets/img/icons/logo-2.png" alt="logo" class="rounded-circle me-2" width="32" height="32">
+          Wany<em>i</em> Ng</span>
+      </a>
+      <hr>
+      <ul class="nav nav-pills flex-column mb-auto">
+        <li class="nav-item">
+          <a href="index.html#about" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+            <span class="fs-6"><img class="img-fluid" src="assets/img/icons/droplet-transparent.png" alt="droplet" class="rounded-circle me-2" width="32" height="32">
+              About</span><!--mypage.html#topicA-->
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="project1.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+            <span class="fs-6"><img class="img-fluid project" src="assets/img/icons/droplet-transparent.png" alt="droplet" class="rounded-circle me-2" width="32" height="32">
+              Project 1</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="project2.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+            <span class="fs-6"><img class="img-fluid project" src="assets/img/icons/droplet-transparent.png" alt="droplet" class="rounded-circle me-2" width="32" height="32">
+              Project 2</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="project3.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+            <span class="fs-6"><img class="img-fluid project" src="assets/img/icons/droplet-transparent.png" alt="droplet" class="rounded-circle me-2" width="32" height="32">
+              Project 3</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="project4.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+            <span class="fs-6"><img class="img-fluid project" src="assets/img/icons/droplet-transparent.png" alt="droplet" class="rounded-circle me-2" width="32" height="32">
+              Project 4</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="project5.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+            <span class="fs-6"><img class="img-fluid project" src="assets/img/icons/droplet-transparent.png" alt="droplet" class="rounded-circle me-2" width="32" height="32">
+              Project 5</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="index.html#contact" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+            <span class="fs-6"><img src="assets/img/icons/droplet-transparent.png" alt="droplet" class="rounded-circle me-2" width="32" height="32">
+              Contact</span>
+            </a>
+        </li>
+      <hr>
+      </ul> 
     </div>
-    <!-- End: line -->
-    <!-- Start: writing -->
-    <div class="writing">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6"><img src="assets/img/1.jpg"></div>
-                <div class="col-md-6">
-                    <p><em>Fuck It, Fuck You</em>&nbsp;and <em>This Is Me</em> are a mini-series, a letter to critics and a letter for the viewer, and a promise to myself.&nbsp;<em>Fuck It, Fuck You&nbsp;</em>represents me breaking my silence as an artist
-                        and creator. I am not trying to come off as someone who is defensive, disrespectful, and unable to take criticism but rather acknowledging my worth and potential as an artist, standing up for my work, and showing confidence in
-                        the work that I produce. With this, I am able to continue creating work where no one can hinder my production and my growth to push forward, improve my skills, and make more work.<br></p>
-                </div>
-                <div class="col-md-6">
-                    <p><em>This Is Me&nbsp;</em>is a statement and promise to myself to always be who I amand create art that I love — for me that involves calligraphy. I am not trying to stand out nor have my own style. My style&nbsp;<em>is</em>&nbsp;a
-                        culmination of all the calligraphy forms that inspired me to pick up a pen and make the leap from “I want to do that, too” to teaching myself. Calligraphy has become a part of me. Sometimes I just want to sit down with a pen and
-                        ink and just write something—abstract or not, it’s art for art’s sake. This means my work&nbsp;sometimes does not have a deeper meaning the viewer must dissect; my goal is&nbsp;for the viewer to simply feel the curves and the sharp
-                        strokes of the calligraphic&nbsp;forms.&nbsp;<br><span class="letter"><br><em>Create what you want to create. Who&nbsp;cares if someone says it’s unoriginal? Create because your heart felt something&nbsp;whether it was from your mind or something you saw, someone will see your&nbsp;passion and acknowledge that.&nbsp;</em><br><strong><em>I acknowledge that.</em></strong><br><span class="sincerely">Letter from me to you</span></span>
-                    </p>
-                </div>
-                <div class="col-md-6"><img src="assets/img/2.jpg"></div>
-            </div>
-        </div>
-    </div>
-    <!-- End: writing -->
-    <!-- Start: end line -->
-    <div class="header">
-        <p class="subtitle fancy"><span><img class="end" src="assets/img/nav1.png" width="100%" height="100%"></span></p>
-    </div>
-    <!-- End: end line -->
-    <!-- Start: footer -->
-    <div>
-        <footer>
-            <div class="row">
-                <div class="col-md-4">
-                    <h4 class="text-center">Projects</h4>
-                    <ul class="list">
-                        <li class="link"><a href="project1.html">Fuck It, Fuck You. This Is Me.<br></a></li>
-                        <li class="link"><a href="project2.html">Error 403</a></li>
-                        <li class="link"><a href="project3.html">Composure</a></li>
-                        <li class="link"><a href="project4.html">well-Blend</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-4 middle">
-                    <h4 class="text-center hidden">Heading</h4>
-                    <ul class="list">
-                        <li class="link"><a href="about.html">About</a></li>
-                        <li class="link"><a href="contact.html">Contact</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-4 middle">
-                    <h4 class="text-center">Find Me On:</h4>
-                    <ul class="list">
-                        <li class="text-center social"><a href="https://www.instagram.com/"><i class="icon ion-social-instagram"></i></a><a href="contact.html"><i class="icon ion-email"></i></a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="container">
-                <p class="text-center copyright">Wany<em>i</em>&nbsp;Ng © 2020</p>
-            </div>
-        </footer>
-    </div>
-    <!-- End: footer -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
-</body>
+  </nav>
+<!------------------------------------------------------->
 
+<!---------------------MOBILE NAVBAR--------------------->
+<nav class="invisible-desktop">
+  <div class="mobile-nav fixed-bottom d-flex justify-content-start">
+    <a href="index.html">
+      <span class="px-3">
+        <i><img class="img-fluid" width="32" height="32" src="assets/img/icons/logo-2.png"></i>
+      </span>Home
+    </a>
+    <a href="index.html#about">
+      <span class="px-3">
+        <i><img class="img-fluid" width="32" height="32" src="assets/img/icons/droplet-transparent.png"></i>
+      </span>About
+    </a>
+    <a href="index.html#works">
+      <span class="px-3">
+        <i><img class="img-fluid" width="32" height="32" src="assets/img/icons/droplet-transparent.png"></i>
+      </span>Projects<span class="caret"></span>
+    </a>
+    <a href="index.html#contact">
+      <span class="px-3">
+        <i><img class="img-fluid" width="32" height="32" src="assets/img/icons/droplet-transparent.png"></i>
+      </span>Contact
+    </a>
+  </div>
+</nav>
+<!------------------------------------------------------->
+
+<!--------CONTENT--------CONTENT--------CONTENT---------->
+<div class="container">
+  <div class="row">
+      <div class="col">
+        <div class="text-center pt-5">
+          <h1 class="title">This Is Me.</h1>
+        </div>
+      </div>
+  </div>
+
+  <div class="row mt-5">
+    <div class="col-md-2 col-lg-1"></div>
+    <div class="col-md-5 col-lg-5 d-flex justify-content-center">
+      <img class="img-fluid mb-3" src="assets/img/project1/thisisme_mockup.png">
+    </div>
+    <div class="col-md-5 col-lg-5 d-flex justify-content-center">
+      <img class="img-fluid mb-3" src="assets/img/project1/thisisme_mockup1.png">
+    </div>
+    <div class="col-md-0 col-lg-1"></div>
+  </div>
+
+  <div class="row mt-5 mb-5">
+    <div class="col-md-2 col-lg-1"></div>
+    <div class="col-md-3 col-lg-3">
+      <h6>Year<br>2019 (Fall semester)</h6>
+    </div>
+    <div class="col-md-3 col-lg-4">
+      <h6>Category<br> 
+        Ink on paper, collage, photo manipulation in Adobe PS
+      </h6>
+    </div>
+    <div class="col-md-4 col-lg-35">
+      <h6>Overview<br>
+        Final project for 2D Imaging class at CUNY City College of New York
+      </h6>
+    </div>
+    <div class="col-md-0 col-lg-1"></div>
+  </div>
+
+  <div class="row mt-5">
+    <div class="col-md-2 col-lg-1"></div>
+      <div class="col-md-10 col-lg-11">
+        <h1 class="concept mb-3">Concept</h1>
+        <p style="font-family: 'apocrevelations_italic';">
+          Create what you want to create<br>
+          Who cares if someone says it’s unoriginal?<br> 
+          Create because your heart felt something<br>  
+          whether it was from your mind<br>  
+          or something you saw,<br> 
+          someone will see your passion and acknowledge that<br> 
+          <strong>I acknowledge that.</strong>
+        </p>
+        <p style="font-family: 'apoc';">—Letter from me to you</p>
+        <p><em>This Is Me</em> is a mini-series, a letter to critics and a letter for 
+          the viewer, and a promise to myself. It represents me breaking my silence 
+          as an artist and creator. I am not trying to come off as someone who is 
+          defensive, disrespectful, and unable to take criticism but rather 
+          acknowledging my worth and potential as an artist, standing up for my work, 
+          and showing confidence in the work that I produce. With this, I am able to 
+          continue creating work where no one can hinder my production and my growth 
+          to push forward, improve my skills, and make more work.
+        </p>
+        <p>
+          The series is a statement and promise to myself to always be who I am and 
+          create art that I love — for me that involves calligraphy. I am not trying 
+          to stand out nor have my own style. My style is a culmination of all the 
+          calligraphy forms that inspired me to pick up a pen and make the leap from 
+          “I want to do that, too” to teaching myself. Calligraphy has become a part 
+          of me. Sometimes I just want to sit down with a pen and ink and just write 
+          something—abstract or not, it’s art for art’s sake. This means my work 
+          sometimes does not have a deeper meaning the viewer must dissect; my goal is 
+          for the viewer to simply feel the curves and the sharp strokes of the 
+          calligraphic forms. 
+        </p>
+      </div>
+  </div>
+
+
+  <div class="row mt-5">
+    <div class="col-md-2 col-lg-1"></div>
+      <div class="col-md-10 col-lg-11">
+        <h1 class="concept mb-3">Process</h1>
+        <p>
+          This project combines calligraphy, which was done physically, and digital 
+          imagery. I obtained this image (above) of a fake heart from pxfuel.com 
+          and edited it in Adobe Photoshop. I isolated the heart from the background 
+          and an image of my hand (below). 
+        </p>
+      </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-2 col-lg-1"></div>
+    <div class="col-md-5 col-lg-5">
+      <img class="img-fluid mb-3" src="assets/img/project1/heart_pxfuelcom.jpg">
+    </div>
+    <div class="col-md-5 col-lg-5">
+      <img class="img-fluid mb-3" src="assets/img/project1/transparent_heart.png">
+    </div>
+    <div class="col-md-0 col-lg-1"></div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-2 col-lg-1"></div>
+    <div class="col-md-5 col-lg-5">
+      <img class="img-fluid mb-3" src="assets/img/project1/transparent-hand.png">
+    </div>
+    <div class="col-md-5 col-lg-5">
+      <img class="img-fluid mb-3" src="assets/img/project1/hand.jpg">
+    </div>
+    <div class="col-md-0 col-lg-1"></div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-2 col-lg-1"></div>
+      <div class="col-md-10 col-lg-11">
+        <p>
+          I made two calligraphy pieces using mixed media paper and ink. Afterwards, 
+          I scanned each piece into a computer and edited each in Photoshop. Unlike 
+          the treatment of the photo of the heart and my hand, I did not isolate the 
+          calligraphy forms from their backgrounds. I had to carefully edit the 
+          lighting and backgrounds to create my canvas. It was especially difficult 
+          editing the piece with a white background because the paper was too large 
+          for the scanner I used, thus, I had to combined the scanned portions 
+          (see images below).
+        </p>
+      </div>
+      <div class="col-md-0 col-lg-1"></div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-2 col-lg-1"></div>
+    <div class="col-md-5 col-lg-5">
+      <img class="img-fluid mb-3" src="assets/img/project1/scan1.jpeg">
+    </div>
+    <div class="col-md-5 col-lg-5">
+      <img class="img-fluid mb-3" src="assets/img/project1/scan2.jpeg">
+    </div>
+    <div class="col-md-0 col-lg-1"></div>
+  </div>
+
+  <div class="row mb-5">
+    <div class="col-md-2 col-lg-1"></div>
+      <div class="col-md-10 col-lg-10">
+        <img class="img-fluid mb-3" src="assets/img/project1/scan3.jpeg">
+        <p>
+          My letter forms are inspired by Pokras Lampas and Instagram user, 
+          @oscarcalligraphy—two calligraphers I study immensely and draw 
+          inspiration from when learning calligraphy.
+        </p>
+      </div>
+      <div class="col-md-0 col-lg-1"></div>
+  </div>
+
+  <div class="row mt-5">
+    <div class="col-md-2 col-lg-1"></div>
+      <div class="col-md-10 col-lg-11">
+        <h1 class="concept mb-3">Final Version</h1>
+      </div>
+      <div class="col-md-0 col-lg-1"></div>
+  </div>
+
+  <div class="row mb-5">
+    <div class="col-md-2 col-lg-1"></div>
+    <div class="col-md-5 col-lg-5">
+      <img class="img-fluid mb-3" src="assets/img/project1/2.jpg">
+    </div>
+    <div class="col-md-5 col-lg-5">
+      <img class="img-fluid mb-3" src="assets/img/project1/1.jpg">
+    </div>
+    <div class="col-md-0 col-lg-1"></div>
+  </div>
+
+  <div class="row mt-5 mb-5">
+    <div class="col-sm-0 col-md-2 col-lg-1"></div>
+      <div class="col-sm-6 col-md-4 col-lg-5"></div>
+      <div class="col-sm-6 col-md-4 col-lg-5">
+        <a href="project2.html"><h1 class="d-flex justify-content-end">Next Project</h1></a>
+      </div>
+    <div class="col-sm-0 col-md-2 col-lg-1"></div>
+  </div>
+
+  
+
+<!------------------------FOOTER----------------------->
+<hr class="m-5">
+<div class="row mb-5 mt-5">
+    <div class="col-sm-12 col-lg-4 mb-3 d-flex flex-column align-items-center align-items-lg-end">
+      <img class="img-fluid mb-2" src="assets/img/icons/logo-2.png" width="150" height="150">
+      <h6 class="mb-2" style="color:rgb(200,200,200); opacity: 0.75;">Wany<em>i</em> Ng © 2021</h6>
+    </div>
+    <div class="col-sm-12 col-lg-4 mb-3 d-flex flex-column align-items-center align-items-lg-center">
+      <h4>Projects</h4>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item"><a href="project1.html">This Is Me.<br></a></li>
+        <li class="list-group-item"><a href="project2.html">Error 403</a></li>
+        <li class="list-group-item"><a href="project3.html">Composure</a></li>
+        <li class="list-group-item"><a href="project4.html">well-Blend</a></li>
+        <li class="list-group-item"><a href="project5.html">ATypI 2020</a></li>                    
+      </ul>
+    </div>
+    <div class="col-sm-12 col-lg-4 mb-3 d-flex flex-column align-items-center align-items-lg-start">
+      <h4>Contact</h4>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item"><a href="mailto:ng.wanyi@outlook.com">ng.wanyi@outlook.com</a></li>
+        <li class="list-group-item"><a href="https://www.instagram.com/">Instagram</a></li>
+      </ul>
+    </div>
+</div>
+
+  </div><!--container close-->
+
+
+
+
+
+<!------------------------------------------------------->
+
+<!------------------------FOOTER-----------------------
+<section id="footer">
+  <footer>
+    <div class="row">
+      <div class="col-sm-12 col-lg-4 mb-3 d-flex flex-column align-items-center align-items-lg-end">
+        <img class="img-fluid mb-2" src="assets/img/icons/logo-2.png" width="150" height="150">
+        <h6 class="mb-2" style="color:rgb(200,200,200); opacity: 0.75;">Wany<em>i</em> Ng © 2021</h6>
+      </div>
+
+      <div class="col-sm-12 col-lg-4 mb-3 d-flex flex-column align-items-center align-items-lg-center">
+        <h4>Projects</h4>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item"><a href="project1.html">This Is Me.<br></a></li>
+          <li class="list-group-item"><a href="project2.html">Error 403</a></li>
+          <li class="list-group-item"><a href="project3.html">Composure</a></li>
+          <li class="list-group-item"><a href="project4.html">well-Blend</a></li>          
+        </ul>
+      </div>
+
+      <div class="col-sm-12 col-lg-4 mb-3 d-flex flex-column align-items-center align-items-lg-start">
+        <h4>Contact</h4>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item"><a href="mailto:ng.wanyi@outlook.com">ng.wanyi@outlook.com</a></li>
+          <li class="list-group-item"><a href="https://www.instagram.com/">Instagram</a></li>
+          <li class="list-group-item"><a href="index.html#about">About</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+</section>
+-------------------------------------------------------->  
+
+</body>
 </html>

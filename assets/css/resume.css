@@ -1,3 +1,18 @@
+.sidebar {
+  width: 200px;
+  height: 100vh;
+  font-family: 'Apoc';
+  font-weight: 100;
+  letter-spacing: .05rem;
+  background-color: transparent !important;
+}
+
+li {
+  height: 8vh;
+}
+
+/*----------------------------------------------------------------------------------*/
+
 .avatar {
   width: 150px;
   height: 150px;
